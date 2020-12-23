@@ -1,3 +1,9 @@
+ROOT=~/dotfiles
+
+# Binaries
+mkdir -p ~/bin
+ln -s $ROOT/bin/is-dark.sh ~/bin
+
 # Vim
 mkdir -p ~/.vim
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc

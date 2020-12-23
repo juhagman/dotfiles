@@ -3,3 +3,10 @@ set cursorline
 set hlsearch
 
 syntax on
+
+if system('~/bin/is-dark.sh') == "true"
+    set bg=dark
+else
+    set bg=light
+endif
+
