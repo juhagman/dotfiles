@@ -6,13 +6,17 @@ ln -s $ROOT/bin/is-dark.sh ~/bin
 
 # Vim
 mkdir -p ~/.vim
-ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+ln -s $ROOT/vim/vimrc ~/.vimrc
 
 # ln -s ~/dotfiles/vim/ftplugin ~/.vim
 # ln -s ~/dotfiles/vim/coc-settings.json ~/.vim/
 
 # Zsh
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+ln -s $ROOT/zsh/zshrc ~/.zshrc
+
+# fzf
+ln -s $ROOT/fzf/fzf.zsh ~/.fzf.zsh
+
 
 # Kitty
 # mkdir -p ~/.config/kitty
